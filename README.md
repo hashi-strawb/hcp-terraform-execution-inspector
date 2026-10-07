@@ -19,6 +19,10 @@ specification from a hosted run. Validate candidate infrastructure with the
 customer's representative workloads and intended concurrency before choosing a
 production configuration.
 
+For additional Terraform Cloud/Enterprise context, including workspace, run,
+VCS, and module metadata alongside optional runner diagnostics, also consider
+[`terraform-data-env`](https://github.com/abuxton/terraform-data-env).
+
 ## Terminology
 
 HashiCorp's [workspace execution-mode documentation](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings#execution-mode)
